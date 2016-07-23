@@ -1,0 +1,122 @@
+body{
+	background-color:#ebebe0;
+}
+main{
+	background-color:#e6e6e6;
+	padding:0px 300px;
+}
+.menubar{
+	background-color:#595959;
+	display: block;
+	height:45px;
+	width:auto;
+	margin:0px;
+	padding:0px 20px;
+	border:0px;
+}
+.menubar ul{
+	display:inline;
+
+}
+.menubar ul li{
+	display:inline;
+	font-size:30px;
+}
+
+.menubar #about{
+	float:right;
+	color:#f2f2f2;
+	border:0px;
+	padding:4px;
+}
+.menubar #about:hover{
+	background-color:black;
+}
+.menubar #typing{
+	float:left;
+	color:yellow;
+}
+.output #para{
+
+	background-color:white;
+	overflow:hidden;
+	font-size:22px;
+	height:100px;
+	width:500px;
+	padding:5px;
+	
+
+
+
+}
+.output #para div {
+	display:inline-block;
+	font-size:22px;
+}
+
+.input{
+	background-color:#e6e6e6;
+	height:35px;
+	width:500px;
+	padding:2px;
+	margin:0px 0px;
+}
+.input #input_word{
+	background-color:white;
+	height:25px;
+	width:333px;
+	font-size:20px;
+	padding:2px;
+}
+.input #reload{
+	float:right;
+	font-size:20px;
+	padding:2px;
+}
+.input #reload:hover{
+	background-color:#d9d9d9;
+}
+.input #timer{
+	background-color:#404040;
+	height:25px;
+	font-size:20px;
+	padding:4px;
+	margin:15px 0px 0px 0px;
+	color:white;
+}
+.highlight{
+	background-color:yellow;
+}
+.right{
+	color:green;
+}
+.wrong{
+	color:red;
+}
+.result{
+	display:none;
+}
+.result li{
+	display:inline-flex;
+	font-size:20px;
+}
+.result ul{
+	border:1px solid;
+	height:160px;
+	width:310px;
+	padding:10px;
+	margin:5px;
+	background-color:white;
+}
+.result #res{
+	background-color:#007fff;
+	color:white;
+	width:300px;
+	border: 1px solid;
+	padding:4px;
+	margin:2px;
+}
+
+
+
+

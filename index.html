@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Typing Speeder</title>
+		<link href="index.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class = "menubar">
+				<nav>
+					<ul>
+						<li id="typing">Typing Speed</li>
+						<li id="about">About</li>
+					</ul>
+				</nav>
+			</div>
+			<br>
+		</header>
+		<main>
+			<div class = "output">		
+				<div rows="4" cols = "30" id = "para">
+				</div>
+			</div>
+
+			<div class = "input">
+				<input type="text" name="input_word" id ="input_word">
+				<label for="timer" id ="timer">01:00</label>
+				<input type="button" name="reload" id="reload" value = "Restart">
+			</div>
+			
+			<div class="result">
+				<ul>
+					<li id ="res"> Result </li>
+					<hr>
+					<li id="wpm">Word Per Minute  </li>
+					<li id="r_wpm"></li>
+					<hr>		
+					<li id="c_word">Correct Word  </li>
+					<li id="r_c"></li>
+					<hr>					
+					<li id="w_word">Wrong Word  </li>
+					<li id="r_w"></li>
+				</ul>
+			</div>
+
+		</main>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>		
+		<script src = "index.js"></script>
+			
+	</body>
+</html>
